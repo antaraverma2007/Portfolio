@@ -921,9 +921,6 @@ h3{
     color: #89659a;
 }
 
-/* =========================
-   DARK MODE — CONTACT
-========================= */
 
 body.dark .contact-section {
     background: linear-gradient(135deg, #09070d, #211323);
@@ -942,7 +939,6 @@ body.dark .contact-copy > p {
     color: #d6c8d7;
 }
 
-/* Email */
 body.dark .contact-email {
     color: #e7a6c3;
 }
@@ -951,7 +947,6 @@ body.dark .contact-email:hover {
     color: #f1acc7;
 }
 
-/* Social links */
 body.dark .contact-socials a {
     background: #17101d;
     border-color: #ffffff20;
@@ -972,7 +967,6 @@ body.dark .contact-socials a:hover i {
     color: #09070d;
 }
 
-/* Decorative note */
 body.dark .contact-note {
     background: #ffffff08;
     border-left-color: #c3a4eb;
@@ -983,7 +977,6 @@ body.dark .contact-note i {
     color: #e7a6c3;
 }
 
-/* Contact form */
 body.dark .contact-form {
     background: #17101d;
     border-color: #ffffff1c;
@@ -1002,7 +995,6 @@ body.dark .contact-form label {
     color: #e8dce9;
 }
 
-/* Inputs */
 body.dark .contact-form input,
 body.dark .contact-form textarea {
     background: #0f0b14;
@@ -1021,7 +1013,6 @@ body.dark .contact-form textarea:focus {
     box-shadow: 0 0 0 3px #c3a4eb20;
 }
 
-/* Send button */
 body.dark .send-button {
     background: linear-gradient(135deg, #e7a6c3, #c3a4eb);
     color: #17101d;
@@ -1032,7 +1023,6 @@ body.dark .send-button:hover {
     box-shadow: 0 6px 18px #00000035;
 }
 
-/* Footer */
 body.dark .contact-footer {
     border-top-color: #ffffff20;
 }
@@ -1049,9 +1039,7 @@ body.dark .contact-footer p:last-child {
     color: #c3a4eb;
 }
 
-/* =========================
-   DARK MODE — GLOBAL
-========================= */
+
 
 body.dark {
     background:
@@ -1061,7 +1049,6 @@ body.dark {
     color: #f7f1f8;
 }
 
-/* Header and navigation */
 body.dark .header {
     background: #09070df2;
     border-bottom-color: #ffffff18;
@@ -1091,7 +1078,7 @@ body.dark .themeToggle:hover {
     background: #ffffff10;
 }
 
-/* Home section */
+
 body.dark .home {
     color: #f7f1f8;
 }
@@ -1105,7 +1092,6 @@ body.dark .intro1 {
     color: #c9bbcb;
 }
 
-/* About section */
 body.dark .about {
     background: linear-gradient(130deg, #1b111f, #29172f);
 }
@@ -1125,7 +1111,6 @@ body.dark .about h2 em {
     color: #e9b3cf;
 }
 
-/* Projects section */
 body.dark .projects {
     background: transparent;
     color: #f7f1f8;
@@ -1140,7 +1125,7 @@ body.dark .project-type {
     color: #c9bbcb;
 }
 
-/* Skills section */
+
 body.dark .skills-section {
     background: linear-gradient(180deg, #130c18, #09070d);
     color: #f7f1f8;
@@ -1161,7 +1146,6 @@ body.dark .skill:hover {
     border-color: #e7a6c3;
 }
 
-/* Journey / experience */
 body.dark .experience-section {
     color: #f7f1f8;
 }
@@ -1192,7 +1176,7 @@ body.dark .experience-card hr {
     border-top-color: #a876c5;
 }
 
-/* Certifications section */
+
 body.dark .certifications-section {
     background: linear-gradient(135deg, #1d1224, #2b172c);
     color: #f7f1f8;
@@ -1228,7 +1212,6 @@ body.dark .certificate a:hover {
     color: #09070d;
 }
 
-/* Smooth theme transition */
 body,
 .header,
 .about,
@@ -1245,13 +1228,13 @@ body,
         border-color 0.3s ease;
 }
 
-/* Remove pinkish gradient from About and Certifications */
+
 .about,
 .certifications-section {
     background: transparent !important;
 }
 
-/* Dark mode: keep these sections clean and dark */
+
 body.dark .about,
 body.dark .certifications-section {
     background: #100c16 !important;

@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    // Load saved theme; default to dark mode for first-time visitors
     const savedTheme = localStorage.getItem("antara-theme");
 
     if (savedTheme === null || savedTheme === "dark") {
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.remove("dark");
     }
 
-    // Update button accessibility labels
     function updateThemeLabel() {
         const isDark = document.body.classList.contains("dark");
 
@@ -32,13 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateThemeLabel();
 
-    // Toggle between dark and light mode
     toggle.addEventListener("click", () => {
         document.body.classList.toggle("dark");
 
         const isDark = document.body.classList.contains("dark");
 
-        // Save the user's preference
         localStorage.setItem("antara-theme", isDark ? "dark" : "light");
 
         updateThemeLabel();
