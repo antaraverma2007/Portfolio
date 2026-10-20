@@ -2,39 +2,451 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Antara Verma — Integrated M.Tech IT student and aspiring software developer." />
-
-    <title>Antara Verma — Developer Portfolio</title>
-
+    <meta name="Antara Verma" content="Fullstack Developer">
+    <title>Portfolio - Antara Verma</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="responsive.css">
 </head>
 <body>
 
-    <div class="scroll-progress">
-        <span></span>
+    
+    <header class="header">
+        <nav class="navbar container">
+            <a class="main" href="#home" ><span>Antara</span> Verma</a>
+        <div class="navLinks">
+        <a href="#home">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#project">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certificates</a>
+          <a href="#experience">Journey</a>
+          <a href="#contact">Contact</a>
     </div>
-    <canvas id="magic-trail"></canvas>
-
-    <header class="site-header" id="top">
-        <a class="main-name" href="#home">
-            <span>&lt/&gt</span>
-            Antara 
-        </a>
-
-        <button class="menu-toggle" >
-            <i></i>
-            <i></i>
-        </button>
-
-        <nav class="main-nav">
-            
-        </nav>
+    <button class="themeToggle" type="button" title="Switch theme">
+          <span class="sun">☼</span> <span class="moon">☾</span>
+    </button>
+    </nav>
     </header>
 
+
+<main>
+    <section class="home container" id="home">
+        <div class="homeMain">
+            <p class="intro"> Hello, I’m Antara.....</p>
+            <h1>Full Stack Developer <br>& AI / ML Engineer</h1>
+            <p class="intro1">I’m a developer who enjoys building web applications, working with APIs, and solving problems through code.
+</p>
+<div class="move">
+    <a class="button" href="assets/resume.pdf" target="_blank">View Resume <span>↗</span></a>
+    <a class="contactLink" href="#contact">Let's connect <span>→</span></a>
+</div>
+        </div>
+        <div class="rightside">
+          <div class="photo">
+    <img src="assets/photo.jpg" alt="Antara Verma">
+</div>
+<div class="decor decor-1">✦</div>
+<div class="decor decor-2">✧</div>
+<div class="decor decor-3">✦</div>
+<div class="decor decor-4">⋆</div>
+<div class="decor decor-5">✦</div>
+<div class="decor decor-6">✧</div>
+          <p>PORTFOLIO 2026<br> <span>my journey, projects & experiments</span></p>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="container grid">
+             <p class="name">ABOUT ME</p>
+             <div>
+            <h2>Building things with <em>purpose</em><br />and curiosity.</h2>
+ <p class="copy">Hey! I’m an Integrated BTech + MTech (2nd year) student, building my foundation in Computer Science with a strong interest in software development and problem-solving. I secured a CGPA of 9.67. I enjoy understanding how systems work and continuously improving my technical skills.
+Currently, I’m focused on C++ and python, exploring programming fundamentals, logic building, and core concepts like data structures. I like solving problems and strengthening my approach step by step.
+As a curious and consistent learner, I believe in growth through practice, projects, and real understanding rather than just theory. I’m also interested in startups and innovation, and aspire to create impactful solutions in the future.
+<br>
+🔷️Key Skills
+<br>
+Programming: C++, Python
+<br>
+Web & backend: HTML, CSS, JavaScript, MERN Stack
+<br>
+Core Focus: Problem Solving, Data Structures and Algorithms
+Tools: VS Code, Git, GitHub
+</p>
+
+<p class="copy">I’m passionate about learning, improving daily, and building a strong base for a successful tech career.
+Currently exploring opportunities to learn, collaborate, and grow in the tech space.
+Let’s connect and grow together.
+</p>
+             </div>
+        </div>
+    </section>
+
+
+    <section class="projects container" id="project">
+        <div class="heading">
+    <div class="heading-left">
+        <p class="name">PROJECTS</p>
+    </div>
+
+    <div class="heading-right">
+        <h2>
+            A few things I’ve<br />
+            built recently.
+        </h2>
+    </div>
+</div>
+
+        <div class="project-grid">
+
+          <article class="project">
+            <div class=" project-art">
+                <img src="assets/homepage.png" alt="Homepage">
+            </div>
+            <div class="project-info">
+                <div><p class="project-type">HTML ● CSS</p>
+                    <h3>Home Page</h3>
+                    </div>
+
+                    <a href="https://github.com/antaraverma2007/CSS-mini-project">↗</a>
+          </article>
+
+          <article class="project">
+            <div class=" project-art">
+                <img src="assets/amazon.png" alt="Amazon">
+            </div>
+            <div class="project-info">
+                <div><p class="project-type">HTML ● CSS</p>
+                    <h3>Amazon</h3>
+                    </div>
+
+                    <a href="https://github.com/antaraverma2007/Amazon">↗</a>
+          </article>
+
+          <article class="project">
+            <div class=" project-art">
+                <img src="assets/spotify.png" alt="Spotify">
+            </div>
+            <div class="project-info">
+                <div><p class="project-type">HTML ● CSS</p>
+                    <h3>Spotify</h3>
+                    </div>
+
+                    <a href="https://github.com/antaraverma2007/Spotify">↗</a>
+          </article>
+
+          <article class="project">
+            <div class=" project-art">
+                <img src="assets/tictactoe.png" alt="Tic-tac-toe">
+            </div>
+            <div class="project-info">
+                <div><p class="project-type">HTML ● CSS ● JavaScript</p>
+                    <h3>Tic-tac-toe</h3>
+                    </div>
+
+                    <a href="https://github.com/antaraverma2007/Tic-Tac-Toe">↗</a>
+          </article>
+
+          <article class="project">
+            <div class=" project-art">
+                <img src="assets/rockpaperscissor.png" alt="Rock paper scissor">
+            </div>
+            <div class="project-info">
+                <div><p class="project-type">HTML ● CSS ● JavaScript</p>
+                    <h3>Rock paper scissor</h3>
+                    </div>
+
+                    <a href="https://github.com/antaraverma2007/Rock-Paper-Scissor-Game">↗</a>
+          </article>
+
+          <article class="project">
+            <div class=" project-art">
+                <img src="assets/portfolio.png" alt="Portfolio">
+            </div>
+            <div class="project-info">
+                <div><p class="project-type">HTML ● CSS ● JavaScript</p>
+                    <h3>Portfolio</h3>
+                    </div>
+
+                    <a href="https://github.com/antaraverma2007/Portfolio">↗</a>
+          </article>
+        </div>
+      </section>
+      
+
+      <section class="skills-section" id="skills">
+        <div class="container">
+            <p class="name">SKILLS</p>
+
+            <div class="skills-grid">
+
+<div class="skill"><i class="fa-solid fa-code"></i> C</div>
+
+<div class="skill"><i class="fa-solid fa-code"></i> C++</div>
+
+<div class="skill"><i class="fa-brands fa-python"></i> Python</div>
+
+<div class="skill"><i class="fa-brands fa-html5"></i> HTML</div>
+
+<div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+
+<div class="skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+
+<div class="skill"><i class="fa-solid fa-bolt"></i> jQuery</div>
+
+<div class="skill"><i class="fa-brands fa-php"></i> PHP</div>
+
+<div class="skill"><i class="fa-solid fa-database"></i> MySQL</div>
+
+<div class="skill"><i class="fa-solid fa-leaf"></i> MongoDB</div>
+
+<div class="skill"><i class="fa-solid fa-server"></i> Express.js</div>
+
+<div class="skill"><i class="fa-brands fa-react"></i> React</div>
+
+<div class="skill"><i class="fa-brands fa-node-js"></i> Node.js</div>
+
+<div class="skill"><i class="fa-solid fa-laptop-code"></i>DSA</div>
+
+<div class="skill"><i class="fa-brands fa-git-alt"></i> Git</div>
+
+<div class="skill"><i class="fa-brands fa-github"></i> GitHub</div>
+
+<div class="skill"><i class="fa-solid fa-plug"></i> REST APIs</div>
+
+<div class="skill"><i class="fa-brands fa-bootstrap"></i> Bootstrap</div>
+
+<div class="skill"><i class="fa-solid fa-wind"></i> Tailwind CSS</div>
+
+<div class="skill"><i class="fa-solid fa-file-code"></i> EJS</div>
+
+<div class="skill"><i class="fa-solid fa-cubes"></i> OOPs</div>
+
+<div class="skill"><i class="fa-solid fa-brain"></i> Artificial Intelligence</div>
+
+<div class="skill"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+
+<div class="skill"><i class="fa-solid fa-robot"></i> Machine Learning</div>
+
+        </div>
+    </div>
+  </section>
+
+
+<section class="experience-section container" id="experience">
+
+    <p class="section-label"> JOURNEY &amp; EDUCATION</p>
+
+    <div class="experience-grid">
+
+        <article class="experience-card">
+            <div class="company-mark">
+                <i class="fa-solid fa-building"></i>
+            </div>
+
+            <h3>Company Name</h3>
+            <hr>
+
+            <h4>Job Title / Internship Role</h4>
+
+            <p class="experience-date">
+                START DATE – END DATE · LOCATION
+            </p>
+
+            <p>
+                 description .
+            </p>
+        </article>
+
+        <article class="experience-card">
+            <div class="company-mark">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+
+            <h3>Company Name</h3>
+            <hr>
+
+            <h4>Job Title / Internship Role</h4>
+
+            <p class="experience-date">
+                START DATE – END DATE · LOCATION
+            </p>
+
+            <p>
+              description
+            </p>
+        </article>
+
+        <article class="experience-card">
+            <div class="company-mark">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h3>Company Name</h3>
+            <hr>
+
+            <h4>Job Title / Internship Role</h4>
+
+            <p class="experience-date">
+                START DATE – END DATE · LOCATION
+            </p>
+
+            <p>
+               description
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+
+<section class="certifications-section" id="certifications">
+    <div class="container">
+
+        <p class="section-label"> CERTIFICATIONS</p>
+
+        <div class="certificate-grid">
+
+            <div class="certificate">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>
+                    Example certificate in HTML, CSS, JavaScript,
+                    and building modern websites.
+                </p>
+                <a href="#" target="_blank">View Certificate</a>
+            </div>
+
+            <div class="certificate">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database Management</h3>
+                <p>
+                    Example certificate covering database concepts,
+                    SQL queries, and data management.
+                </p>
+                <a href="#" target="_blank">View Certificate</a>
+            </div>
+
+            <div class="certificate">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Machine Learning</h3>
+                <p>
+                    Example certificate exploring machine learning
+                    fundamentals and basic AI concepts.
+                </p>
+                <a href="#" target="_blank">View Certificate</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+    <div class="contact-inner">
+
+        <div class="contact-grid">
+
+            <div class="contact-copy">
+                <h2>Let's connect and create <em>something great.</em></h2>
+
+                <p>
+                    I'm always open to learning opportunities, interesting
+                    projects, and connecting with people who enjoy building
+                    meaningful things. Feel free to reach out!
+                </p>
+
+                <a href="mailto:your-email@example.com" class="contact-email">
+                    <i class="fa-regular fa-envelope"></i>
+                    your-email@example.com
+                </a>
+
+                <div class="contact-socials">
+                    <a href="https://www.linkedin.com/in/antara-verma-267a4235a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B3fjqsa2DRouKiuuS7g54jw%3D%3D" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        LinkedIn
+                    </a>
+
+                    <a href="https://github.com/antaraverma2007?tab=repositories" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+
+                <div class="contact-note">
+                    <i class="fa-regular fa-lightbulb"></i>
+                    Always curious, always learning, always building.
+                </div>
+            </div>
+
+        
+            <form class="contact-form"
+                  action="https://formspree.io/f/mjygqbeb"
+                  method="POST">
+
+                <h3>Send me a message</h3>
+                <p>Have a question or an idea? I'd love to hear from you.</p>
+
+                <label for="contact-name">Your Name</label>
+                <input
+                    type="text"
+                    id="contact-name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="contact-email">Your Email</label>
+                <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="contact-subject">Subject</label>
+                <input
+                    type="text"
+                    id="contact-subject"
+                    name="subject"
+                    placeholder="What's this about?"
+                    required
+                >
+
+                <label for="contact-message">Message</label>
+                <textarea
+                    id="contact-message"
+                    name="message"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="send-button">
+                    Send Message <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    
+        <div class="contact-footer">
+            <p>&copy; 2026 Antara Verma. Made with care.</p>
+            <p>Open to learning and new opportunities.</p>
+        </div>
+
+    </div>
+</section>
+
+</main>
+<script src="script.js"></script>
 </body>
 </html>

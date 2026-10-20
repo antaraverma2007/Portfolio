@@ -1,0 +1,429 @@
+/* =========================================
+   TABLET — 1024px and below
+   ========================================= */
+
+@media (max-width: 1024px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .navbar {
+        height: 72px;
+        min-height: 72px;
+    }
+
+    .navLinks {
+        gap: 16px;
+        font-size: 15px;
+    }
+
+    .main {
+        font-size: 32px;
+    }
+
+    .home {
+        gap: 45px;
+        padding: 70px 0;
+    }
+
+    .homeMain {
+        flex: 1;
+    }
+
+    .rightside {
+        flex: 1;
+        gap: 25px;
+    }
+
+    .photo {
+        width: 320px;
+        height: 420px;
+    }
+
+    .rightside p {
+        font-size: 30px;
+    }
+
+    .rightside span {
+        font-size: 17px;
+    }
+
+    .decor {
+        font-size: 20px;
+    }
+}
+
+
+/* =========================================
+   MOBILE — 768px and below
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar {
+        height: 65px;
+        min-height: 65px;
+    }
+
+    .main {
+        font-size: 28px;
+    }
+
+    /* Hide navigation links and theme button */
+    .navLinks,
+    .themeToggle {
+        display: none;
+    }
+
+
+    /* ---------- HOME ---------- */
+
+    .home {
+        width: 90%;
+        min-height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 45px;
+
+        padding-top: 55px;
+        padding-bottom: 70px;
+
+        text-align: center;
+    }
+
+
+    /* ---------- LEFT CONTENT ---------- */
+
+    .homeMain {
+        width: 100%;
+    }
+
+    .intro {
+        justify-content: center;
+        font-size: 21px;
+        letter-spacing: 0.04em;
+
+        margin-bottom: 18px;
+    }
+
+    h1 {
+        font-size: clamp(32px, 8vw, 42px);
+        line-height: 1.15;
+    }
+
+    .intro1 {
+        max-width: 600px;
+        margin: 0 auto;
+
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+
+    /* ---------- BUTTONS ---------- */
+
+    .move {
+        justify-content: center;
+        gap: 18px;
+        margin-top: 28px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 14px 21px;
+    }
+
+    .contactLink {
+        font-size: 16px;
+    }
+
+
+    /* ---------- RIGHT SIDE ---------- */
+
+    .rightside {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+
+        position: relative;
+    }
+
+
+    /* ---------- PHOTO ---------- */
+
+    .photo {
+        width: min(82vw, 330px);
+        height: min(105vw, 420px);
+
+        margin: 0 auto;
+
+        border-radius: 20px;
+    }
+
+
+    /* ---------- PORTFOLIO TEXT ---------- */
+
+    .rightside p {
+        margin: 0;
+
+        font-size: clamp(25px, 7vw, 32px);
+        line-height: 1.15;
+
+        text-align: center;
+    }
+
+    .rightside span {
+        display: inline-block;
+
+        margin-top: 7px;
+
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+
+    /* ---------- DECORATIONS ---------- */
+
+    .decor {
+        position: absolute;
+        z-index: 2;
+
+        font-size: 18px;
+    }
+
+    .decor-1 {
+        top: 5%;
+        right: 5%;
+    }
+
+    .decor-2 {
+        top: 25%;
+        right: 2%;
+
+        font-size: 14px;
+    }
+
+    .decor-3 {
+        bottom: 18%;
+        right: 4%;
+
+        font-size: 18px;
+    }
+
+    .decor-4 {
+        bottom: 8%;
+        right: 15%;
+
+        font-size: 16px;
+    }
+
+    .decor-5 {
+        bottom: 25%;
+        left: 5%;
+
+        font-size: 17px;
+    }
+
+    .decor-6 {
+        top: 15%;
+        left: 4%;
+
+        font-size: 16px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE — 480px and below
+   ========================================= */
+
+@media (max-width: 480px) {
+
+    .container {
+        width: 90%;
+    }
+
+
+    /* ---------- HEADER ---------- */
+
+    .navbar {
+        height: 62px;
+        min-height: 62px;
+    }
+
+    .main {
+        font-size: 26px;
+    }
+
+
+    /* ---------- HOME ---------- */
+
+    .home {
+        width: 90%;
+
+        gap: 38px;
+
+        padding-top: 42px;
+        padding-bottom: 55px;
+    }
+
+
+    /* ---------- INTRO ---------- */
+
+    .intro {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+
+    /* ---------- HEADING ---------- */
+
+    h1 {
+        font-size: clamp(29px, 8.5vw, 37px);
+        line-height: 1.15;
+    }
+
+
+    /* ---------- DESCRIPTION ---------- */
+
+    .intro1 {
+        font-size: 16px;
+        line-height: 1.65;
+    }
+
+
+    /* ---------- BUTTONS ---------- */
+
+    .move {
+        flex-direction: column;
+
+        gap: 16px;
+
+        margin-top: 25px;
+    }
+
+    .button {
+        font-size: 15px;
+        padding: 13px 20px;
+    }
+
+    .contactLink {
+        font-size: 15px;
+    }
+
+
+    /* ---------- PHOTO ---------- */
+
+    .photo {
+        width: 82vw;
+        height: 105vw;
+
+        max-width: 300px;
+        max-height: 385px;
+
+        border-radius: 18px;
+    }
+
+
+    /* ---------- PORTFOLIO TEXT ---------- */
+
+    .rightside {
+        gap: 17px;
+    }
+
+    .rightside p {
+        font-size: 25px;
+        line-height: 1.15;
+    }
+
+    .rightside span {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+
+    /* ---------- DECORATIONS ---------- */
+
+    .decor-1 {
+        top: 3%;
+        right: 3%;
+    }
+
+    .decor-2 {
+        top: 22%;
+        right: 0;
+    }
+
+    .decor-3 {
+        bottom: 17%;
+        right: 2%;
+    }
+
+    .decor-4 {
+        bottom: 7%;
+        right: 10%;
+    }
+
+    .decor-5 {
+        bottom: 23%;
+        left: 2%;
+    }
+
+    .decor-6 {
+        top: 12%;
+        left: 2%;
+    }
+}
+
+
+/* =========================================
+   VERY SMALL PHONES — 360px and below
+   ========================================= */
+
+@media (max-width: 360px) {
+
+    .home {
+        padding-top: 35px;
+        gap: 32px;
+    }
+
+    .main {
+        font-size: 24px;
+    }
+
+    .intro {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .intro1 {
+        font-size: 15px;
+    }
+
+    .photo {
+        width: 85vw;
+        height: 105vw;
+
+        max-width: 280px;
+        max-height: 350px;
+    }
+
+    .rightside p {
+        font-size: 22px;
+    }
+
+    .rightside span {
+        font-size: 13px;
+    }
+}
