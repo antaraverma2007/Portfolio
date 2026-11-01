@@ -1,429 +1,551 @@
-/* =========================================
-   TABLET — 1024px and below
-   ========================================= */
-
-@media (max-width: 1024px) {
-
+@media (max-width: 1200px) {
     .container {
         width: 92%;
     }
 
     .navbar {
-        height: 72px;
-        min-height: 72px;
+        gap: 20px;
     }
 
     .navLinks {
-        gap: 16px;
+        gap: 18px;
         font-size: 15px;
+    }
+
+    .home {
+        gap: 35px;
+    }
+
+    .photo {
+        width: 400px;
+        height: 420px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        height: auto;
+        min-height: 75px;
+        padding: 15px 0;
+        flex-wrap: wrap;
     }
 
     .main {
         font-size: 32px;
     }
 
+    .navLinks {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px 25px;
+        padding-top: 12px;
+    }
+
     .home {
-        gap: 45px;
+        min-height: auto;
+        gap: 30px;
         padding: 70px 0;
     }
 
     .homeMain {
         flex: 1;
+        min-width: 0;
+    }
+
+    .homeMain h1 {
+        font-size: 38px;
+    }
+
+    .intro {
+        font-size: 23px;
+    }
+
+    .intro1 {
+        font-size: 18px;
     }
 
     .rightside {
-        flex: 1;
-        gap: 25px;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .photo {
         width: 320px;
-        height: 420px;
+        height: 380px;
     }
 
     .rightside p {
-        font-size: 30px;
-    }
-
-    .rightside span {
-        font-size: 17px;
-    }
-
-    .decor {
-        font-size: 20px;
-    }
-}
-
-
-/* =========================================
-   MOBILE — 768px and below
-   ========================================= */
-
-@media (max-width: 768px) {
-
-    /* ---------- NAVBAR ---------- */
-
-    .navbar {
-        height: 65px;
-        min-height: 65px;
-    }
-
-    .main {
-        font-size: 28px;
-    }
-
-    /* Hide navigation links and theme button */
-    .navLinks,
-    .themeToggle {
-        display: none;
-    }
-
-
-    /* ---------- HOME ---------- */
-
-    .home {
-        width: 90%;
-        min-height: auto;
-
-        display: flex;
-        flex-direction: column;
-
-        gap: 45px;
-
-        padding-top: 55px;
-        padding-bottom: 70px;
-
+        font-size: 27px;
         text-align: center;
     }
 
+    .rightside span {
+        font-size: 16px;
+    }
 
-    /* ---------- LEFT CONTENT ---------- */
+    .about {
+        padding: 75px 0;
+    }
+
+    .about .grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .about h2 {
+        font-size: 38px;
+    }
+
+    .copy {
+        font-size: 17px;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .certificate-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-grid {
+        gap: 35px;
+    }
+
+    .contact-copy h2 {
+        font-size: 32px;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .main {
+        font-size: 30px;
+    }
+
+    .navLinks {
+        gap: 12px 20px;
+        font-size: 14px;
+    }
+
+    .themeToggle {
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 0;
+        gap: 45px;
+    }
 
     .homeMain {
         width: 100%;
     }
 
+    .homeMain h1 {
+        font-size: clamp(32px, 7vw, 43px);
+    }
+
     .intro {
         justify-content: center;
         font-size: 21px;
-        letter-spacing: 0.04em;
-
         margin-bottom: 18px;
     }
 
-    h1 {
-        font-size: clamp(32px, 8vw, 42px);
-        line-height: 1.15;
-    }
-
     .intro1 {
-        max-width: 600px;
-        margin: 0 auto;
-
+        max-width: 550px;
+        margin: auto;
         font-size: 17px;
-        line-height: 1.7;
     }
-
-
-    /* ---------- BUTTONS ---------- */
 
     .move {
         justify-content: center;
-        gap: 18px;
-        margin-top: 28px;
     }
 
     .button {
         font-size: 16px;
-        padding: 14px 21px;
+        padding: 14px 20px;
     }
 
     .contactLink {
         font-size: 16px;
     }
 
-
-    /* ---------- RIGHT SIDE ---------- */
-
     .rightside {
         width: 100%;
-
-        display: flex;
-        flex-direction: column;
-
-        gap: 20px;
-
         position: relative;
     }
 
-
-    /* ---------- PHOTO ---------- */
-
     .photo {
-        width: min(82vw, 330px);
-        height: min(105vw, 420px);
-
-        margin: 0 auto;
-
-        border-radius: 20px;
+        width: min(350px, 85%);
+        height: 380px;
     }
-
-
-    /* ---------- PORTFOLIO TEXT ---------- */
 
     .rightside p {
-        margin: 0;
-
-        font-size: clamp(25px, 7vw, 32px);
-        line-height: 1.15;
-
-        text-align: center;
+        font-size: 26px;
     }
-
-    .rightside span {
-        display: inline-block;
-
-        margin-top: 7px;
-
-        font-size: 15px;
-        line-height: 1.4;
-    }
-
-
-    /* ---------- DECORATIONS ---------- */
 
     .decor {
-        position: absolute;
-        z-index: 2;
-
-        font-size: 18px;
+        display: none;
     }
 
-    .decor-1 {
-        top: 5%;
-        right: 5%;
+    .about {
+        padding: 65px 0;
     }
 
-    .decor-2 {
-        top: 25%;
-        right: 2%;
+    .about h2 {
+        font-size: 34px;
+        line-height: 1.15;
+    }
 
+    .copy {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .projects {
+        padding: 75px 0;
+    }
+
+    .heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .heading-right {
+        justify-content: flex-start;
+    }
+
+    .heading-right h2 {
+        text-align: left;
+        font-size: 34px;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px 15px;
+    }
+
+    .project-art {
+        height: 180px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+
+    .skill {
+        min-height: 100px;
         font-size: 14px;
     }
 
-    .decor-3 {
-        bottom: 18%;
-        right: 4%;
-
-        font-size: 18px;
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .decor-4 {
-        bottom: 8%;
-        right: 15%;
-
-        font-size: 16px;
+    .certificate-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .decor-5 {
-        bottom: 25%;
-        left: 5%;
-
-        font-size: 17px;
+    .contact-inner {
+        padding: 0 25px;
     }
 
-    .decor-6 {
-        top: 15%;
-        left: 4%;
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
 
-        font-size: 16px;
+    .contact-copy h2 {
+        font-size: 34px;
+    }
+
+    .contact-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
     }
 }
 
-
-/* =========================================
-   SMALL MOBILE — 480px and below
-   ========================================= */
-
-@media (max-width: 480px) {
-
+@media (max-width: 576px) {
     .container {
         width: 90%;
     }
 
-
-    /* ---------- HEADER ---------- */
-
     .navbar {
-        height: 62px;
-        min-height: 62px;
+        padding: 15px 0;
     }
 
     .main {
-        font-size: 26px;
+        font-size: 27px;
     }
 
+    .navLinks {
+        justify-content: center;
+        gap: 12px 16px;
+        font-size: 13px;
+    }
 
-    /* ---------- HOME ---------- */
+    .themeToggle {
+        width: 34px;
+        height: 34px;
+        font-size: 17px;
+    }
 
     .home {
-        width: 90%;
-
-        gap: 38px;
-
-        padding-top: 42px;
-        padding-bottom: 55px;
+        padding: 50px 0;
+        gap: 35px;
     }
-
-
-    /* ---------- INTRO ---------- */
 
     .intro {
-        font-size: 19px;
-        margin-bottom: 15px;
+        font-size: 18px;
     }
 
-
-    /* ---------- HEADING ---------- */
-
-    h1 {
-        font-size: clamp(29px, 8.5vw, 37px);
-        line-height: 1.15;
+    .homeMain h1 {
+        font-size: 34px;
     }
-
-
-    /* ---------- DESCRIPTION ---------- */
 
     .intro1 {
         font-size: 16px;
-        line-height: 1.65;
+        line-height: 1.7;
     }
 
-
-    /* ---------- BUTTONS ---------- */
-
     .move {
-        flex-direction: column;
-
-        gap: 16px;
-
+        gap: 15px;
         margin-top: 25px;
     }
 
     .button {
         font-size: 15px;
-        padding: 13px 20px;
+        padding: 13px 18px;
     }
 
     .contactLink {
         font-size: 15px;
     }
 
-
-    /* ---------- PHOTO ---------- */
-
     .photo {
-        width: 82vw;
-        height: 105vw;
-
-        max-width: 300px;
-        max-height: 385px;
-
-        border-radius: 18px;
-    }
-
-
-    /* ---------- PORTFOLIO TEXT ---------- */
-
-    .rightside {
-        gap: 17px;
+        width: 85%;
+        height: 350px;
     }
 
     .rightside p {
-        font-size: 25px;
-        line-height: 1.15;
+        font-size: 23px;
     }
 
     .rightside span {
         font-size: 14px;
-        margin-top: 5px;
     }
 
-
-    /* ---------- DECORATIONS ---------- */
-
-    .decor-1 {
-        top: 3%;
-        right: 3%;
+    .about {
+        padding: 55px 0;
     }
 
-    .decor-2 {
-        top: 22%;
-        right: 0;
+    .about h2 {
+        font-size: 29px;
+        margin-bottom: 25px;
     }
 
-    .decor-3 {
-        bottom: 17%;
-        right: 2%;
+    .about .name,
+    .projects .name,
+    .section-label {
+        font-size: 13px;
     }
 
-    .decor-4 {
-        bottom: 7%;
-        right: 10%;
+    .copy {
+        font-size: 15px;
+        line-height: 1.8;
     }
 
-    .decor-5 {
-        bottom: 23%;
-        left: 2%;
+    .projects {
+        padding: 60px 0;
     }
 
-    .decor-6 {
-        top: 12%;
-        left: 2%;
+    .heading-right h2 {
+        font-size: 30px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .project-art {
+        height: 220px;
+    }
+
+    .project-info h3 {
+        font-size: 19px;
+    }
+
+    .skills-section {
+        padding: 50px 0;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .skill {
+        min-height: 95px;
+        font-size: 13px;
+    }
+
+    .skill i {
+        font-size: 24px;
+    }
+
+    .experience-section {
+        padding: 50px 0;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .experience-card {
+        padding: 25px 20px;
+    }
+
+    .certificate-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .certificate {
+        min-height: 270px;
+        padding: 28px 22px;
+    }
+
+    .certifications-section {
+        padding: 55px 0;
+    }
+
+    .contact-section {
+        padding: 55px 0 25px;
+    }
+
+    .contact-inner {
+        padding: 0 20px;
+    }
+
+    .contact-grid {
+        gap: 35px;
+    }
+
+    .contact-copy h2 {
+        font-size: 29px;
+    }
+
+    .contact-copy > p {
+        font-size: 14px;
+    }
+
+    .contact-email {
+        font-size: 14px;
+        overflow-wrap: anywhere;
+    }
+
+    .contact-socials {
+        gap: 10px;
+    }
+
+    .contact-socials a {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .contact-note {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+    .contact-form {
+        padding: 22px 18px;
+    }
+
+    .contact-form h3 {
+        font-size: 23px;
+    }
+
+    .contact-footer {
+        margin-top: 35px;
+    }
+
+    .contact-footer p {
+        font-size: 12px;
     }
 }
 
-
-/* =========================================
-   VERY SMALL PHONES — 360px and below
-   ========================================= */
-
-@media (max-width: 360px) {
-
-    .home {
-        padding-top: 35px;
-        gap: 32px;
-    }
-
+@media (max-width: 380px) {
     .main {
         font-size: 24px;
     }
 
+    .navLinks {
+        gap: 10px 12px;
+        font-size: 12px;
+    }
+
+    .homeMain h1 {
+        font-size: 29px;
+    }
+
     .intro {
-        font-size: 17px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    .intro1 {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .photo {
-        width: 85vw;
-        height: 105vw;
-
-        max-width: 280px;
-        max-height: 350px;
+        height: 300px;
     }
 
-    .rightside p {
-        font-size: 22px;
+    .about h2 {
+        font-size: 26px;
     }
 
-    .rightside span {
-        font-size: 13px;
+    .heading-right h2 {
+        font-size: 27px;
+    }
+
+    .contact-copy h2 {
+        font-size: 26px;
+    }
+
+    .contact-form {
+        padding: 20px 15px;
     }
 }
