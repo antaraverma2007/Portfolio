@@ -57,31 +57,6 @@ Google Fonts
 
 Formspree for the contact form
 
-📂 Project Structure
-
-portfolio/
-├── index.html
-├── style.css
-├── responsive.css
-├── script.js
-├── assets/
-│   ├── photo.jpg
-│   ├── resume.pdf
-│   ├── homepage.png
-│   ├── amazon.png
-│   ├── spotify.png
-│   ├── tictactoe.png
-│   ├── rockpaperscissor.png
-│   └── portfolio.png
-├── screenshots/
-│   ├── home-page.png
-│   ├── about-skills.png
-│   ├── projects.png
-│   └── dark-mode.png
-└── README.md
-
-
-
 🚀 Run Locally
 
 Clone or download this repository.
