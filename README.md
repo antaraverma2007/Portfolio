@@ -8,7 +8,15 @@ A personal portfolio website showcasing my background, skills, projects, and jou
 
 <img width="938" height="492" alt="Screenshot 2026-10-20 191420" src="https://github.com/user-attachments/assets/f8d40e2a-fd15-448b-af2d-ee911494f734" />
 
+<img width="936" height="495" alt="Screenshot 2026-10-20 191824" src="https://github.com/user-attachments/assets/c029215a-7bbc-4524-a5df-86f29b146f29" />
+
+<img width="879" height="485" alt="Screenshot 2026-10-20 191844" src="https://github.com/user-attachments/assets/0cc5973c-7f65-459a-beb2-046b5423c8ac" />
+
 <img width="935" height="494" alt="Screenshot 2026-10-20 191437" src="https://github.com/user-attachments/assets/bd5ea144-49f7-456c-a4dd-d4294df90530" />
+
+<img width="805" height="492" alt="Screenshot 2026-10-20 191906" src="https://github.com/user-attachments/assets/15b1d64b-f64e-4b7d-862d-756023c0904b" />
+
+<img width="928" height="497" alt="Screenshot 2026-10-20 191918" src="https://github.com/user-attachments/assets/58d36008-0440-45f7-9a27-b98d3da8ea5b" />
 
 
 ✨ Features
