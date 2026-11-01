@@ -78,3 +78,4 @@ The theme toggle switches between light and dark themes. The selected theme is s
 
 
 LinkedIn: [https://www.linkedin.com/in/antara-verma-267a4235a/](https://www.linkedin.com/in/antara-verma-267a4235a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BucZbqN%2F7RX6sS%2BqGyyw05g%3D%3D)
+Deployed link: https://antaraportfolio-five.vercel.app/
